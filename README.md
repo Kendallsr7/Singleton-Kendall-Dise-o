@@ -1,0 +1,1 @@
+# Singleton-Kendall-Dise-o
