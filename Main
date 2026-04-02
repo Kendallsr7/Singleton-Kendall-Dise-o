@@ -1,0 +1,16 @@
+public class Main {
+    public static void main(String[] args) {
+
+        ClaseA a = new ClaseA();
+        ClaseB b = new ClaseB();
+
+        a.ejecutar();
+        b.ejecutar();
+
+        ConfiguracionSistema instance1 = ConfiguracionSistema.getInstancia();
+        ConfiguracionSistema instance2 = ConfiguracionSistema.getInstancia();
+
+        System.out.println("Comparación:");
+        System.out.println(instance1 == instance2);
+    }
+}
